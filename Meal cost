@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+int main()
+{
+    /*variable declaration*/
+    
+    float meal_cost;
+    float tip_per;
+    float  tax_per;
+    printf("enter mel cost \n");
+   
+   /*input data*/
+  
+   scanf("%f",&meal_cost);
+   printf("enter tip percentage \n");
+   scanf("%f",&tip_per);
+   printf("enter tax percentage \n");
+   scanf("%f",&tax_per);
+   float tip=(float)(12*20)/100;
+   float tax=(float)(12*8)/100;
+   int total=meal_cost+tip+tax;
+ 
+   printf("%d",total);
+ 
+    return 0;
+}
